@@ -1,4 +1,9 @@
-/* NAVIGATION BAR */
+/***** NAVIGATION BAR *****/
+
+:root {
+    --seafoam: #00ffda;
+    --dark-gray: #333333;
+}
 
 #sidenav {
     height: 100%;
@@ -16,13 +21,13 @@
 }
 
 #sidenav-icons a {
-    padding: 6px 10px 6px 16px;
+    padding: 6px 17px;
     text-decoration: none;
-    color: #333333;
+    color: var(--dark-gray);
 }
 
 #sidenav-icons a:hover, #topnav-icons a:hover, #contact a:hover {
-    color: #00ffda;
+    color: var(--seafoam);
 }
 
 #sidenav-mid {
@@ -42,7 +47,7 @@
 #topnav {
     overflow: hidden;
     background-color: black;
-    color: #00ffda;
+    color: var(--seafoam);
     position: fixed;
     top: 0;
     width: 100%;
@@ -57,11 +62,13 @@
     font-size: 25px;
 }
 
+#topnav-icons {
+    width: 360px;
+}
+
 #topnav-icons a {
-    padding: 14px 5%;
+    padding: 14px 20px;
     position: relative;
-    left: 15%;
-    transform: translateX(-60%);
 }
 
 #logo-sidenav, #logo-topnav {
@@ -70,12 +77,18 @@
     padding: 0 2.5px;
 }
 
-/* MAIN */
+.center-icons-horizontally {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+/***** MAIN *****/
 
 #main {
     margin-left: 60px;
     padding: 0px 10px 1px;
-    background-color: #333333;
+    background-color: var(--dark-gray);
     color: white;
 }
 
@@ -84,12 +97,33 @@
         margin-left: 0px;
         margin-top: 60px;
     }
-    #home, #about, #skills, #portfolio {
+    #home, #about, #experience, #portfolio {
+        /* TODO: update? */
         padding-top: 60px;
     }
 }
 
-/* CONTACT BAR */
+/***** HOME *****/
+
+#home {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn {
+    background-color: var(--dark-gray);
+    border-color: var(--seafoam);
+    color: var(--seafoam);
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: var(--seafoam);
+    border-color: var(--dark-gray);
+    color: var(--dark-gray);
+}
+
+/***** CONTACT BAR *****/
 
 #contact {
     width: 100%;
@@ -100,18 +134,19 @@
 
 #contact a {
     color: #333333;
-    /* BREAK */
+    /* break */
     float: left;
     display: block;
     color: #333333;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    /* brreak */
-    padding: 14px 5%;
+    padding: 14px 20px;
     position: relative;
-    left: 17.5%;
-    transform: translateX(-75%);
+}
+
+#contact-icons {
+    width: 370px;
 }
 
 #about {
