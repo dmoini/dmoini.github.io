@@ -1,9 +1,44 @@
-/***** NAVIGATION BAR *****/
-
 :root {
     --seafoam: #00ffda;
     --dark-gray: #333333;
 }
+
+h1:not(.header) {
+    font-family: "bebas_neuebold", sans-serif;
+    font-size: 100px;
+    color: var(--seafoam)
+}
+
+@media only screen and (max-width: 767px) {
+    h1:not(.header) {
+        font-size: 80px;
+    }
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+    background-color: var(--dark-gray);
+    border-color: var(--seafoam);
+    color: var(--seafoam);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: var(--seafoam);
+    border-color: var(--dark-gray);
+    color: var(--dark-gray);
+}
+
+/********** NAVIGATION BAR **********/
 
 #sidenav {
     height: 100%;
@@ -51,6 +86,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 #topnav a {
@@ -67,14 +103,14 @@
 }
 
 #topnav-icons a {
-    padding: 14px 20px;
+    padding: 14px 15px;
     position: relative;
 }
 
 #logo-sidenav, #logo-topnav {
     height: 60px;
     width: 60px;
-    padding: 0 2.5px;
+    padding: 10px;
 }
 
 .center-icons-horizontally {
@@ -83,11 +119,11 @@
     align-items: center;
 }
 
-/***** MAIN *****/
+/********** MAIN **********/
 
 #main {
     margin-left: 60px;
-    padding: 0px 10px 1px;
+    padding: 0px 0px 1px;
     background-color: var(--dark-gray);
     color: white;
 }
@@ -103,27 +139,28 @@
     }
 }
 
-/***** HOME *****/
+/* TODO: get clearer image of logo */
+
+/* .background-image {
+    background-image: url(/Users/donovanmoini/Desktop/dmoini.github.io/images/logo-background.png);
+    background-position: right 15% center;
+    background-repeat: no-repeat;
+    background-size: auto;
+} */
+
+@media only screen and (max-width: 767px) {
+    .background-image {
+        background-position: center;
+    }
+}
+
+/********** HOME **********/
 
 #home {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    height: 100vh;
 }
 
-.btn {
-    background-color: var(--dark-gray);
-    border-color: var(--seafoam);
-    color: var(--seafoam);
-    margin-bottom: 10px;
-}
-
-.btn:hover {
-    background-color: var(--seafoam);
-    border-color: var(--dark-gray);
-    color: var(--dark-gray);
-}
-
-/***** CONTACT BAR *****/
+/********** CONTACT BAR **********/
 
 #contact {
     width: 100%;
@@ -147,9 +184,4 @@
 
 #contact-icons {
     width: 370px;
-}
-
-#about {
-    background-color: red;
-    /* DELETE #about CSS when done */
 }
