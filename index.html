@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="fontawesome-5.1.0/css/all.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="/Users/donovanmoini/Desktop/dmoini.github.io/fonts/bebas-nueue/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="icon" href="images/favicon-32x32.png" type="image/png" sizes="32x32" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>Donovan Moini Portfolio Website</title>
 </head>
+
+<!-- onload="$(document).ready(function(){$(this).scrollTop(0);});" -->
 
 <body>
     <!-- ********** NAVIGATION BAR ********** -->
@@ -53,20 +55,22 @@
 
     <!-- ********** MAIN CONTENT ********** -->
     <div id="main">
-        <div class="background-image d-flex align-items-center" id="home">
+        <section class="background-image d-flex align-items-center" id="home">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <h1 class="header wow fadeInUp" data-wow-delay="0.5s">Hello!</h1>
-                        <h1 class="header wow fadeInUp" data-wow-delay="1.25s">I'm Donovan and welcome to my portfolio!</h1>
+                        <h1 class="home-header wow fadeInUp" data-wow-delay="0.5s">Hello!</h1>
+                        <h1 class="home-header wow fadeInUp" data-wow-delay="1.25s">I'm Donovan and welcome to my portfolio!</h1>
                         <a href="mailto:donnym99@gmail.com?Subject=You're Hired!" target="_top" class="wow fadeInUp" data-wow-delay="2.0s"><button class="btn">CONTACT ME</button></a>
                     </div>
                     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-0 col-xs-0"></div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid" id="about">
+        </section>
+
+        <!-- ********** ABOUT ME ********** -->
+        <section class="container-fluid" id="about">
             <!-- THINGS TO TALK ABOUT: Who you are What kind of work you do How you do that work Where you want to go next And who YOU really want to work with. -->
             <div class="row">
                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
@@ -88,16 +92,18 @@
                         <br><br>Nam ac turpis vitae ipsum malesuada mollis nec sit amet lacus. Nam dictum, mauris non accumsan hendrerit, elit erat sagittis sem, ut malesuada enim risus et lorem. Nullam luctus, enim at ornare convallis, sapien dolor hendrerit
                         orci, vel luctus urna quam et ante. Sed eget ligula nulla. Donec magna enim, vulputate vel congue ut, malesuada et tortor. Mauris id dui nisl. Ut fringilla placerat velit, eget sodales lorem sollicitudin in. Vestibulum nec nunc
                         magna. Aliquam risus sapien, volutpat a commodo a, sagittis eu diam. Nullam ac leo augue. Praesent elementum est ut elit viverra lacinia. Mauris bibendum lacus nec molestie rutrum.
-                        <br><br>Sed placerat sollicitudin est, ac efficitur est molestie eget. Morbi aliquam fermentum ipsum, in vulputate arcu pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Sed eget fringilla nunc, in porta mauris. Etiam vulputate, mi et convallis egestas, orci augue luctus augue, convallis consequat est nunc eget purus. Duis tincidunt euismod sem, vitae maximus nibh bibendum sit amet. Etiam tincidunt
-                        pulvinar ante, posuere porta tellus. Sed ac dolor non mauris ullamcorper vulputate. Duis id sapien quis lectus elementum lobortis vitae nec nisi. Sed et dui vel augue pulvinar porta. Pellentesque blandit quam eu ante lacinia condimentum.
-                        Aliquam dictum consectetur mauris at condimentum. Donec tortor mauris, fringilla sed mi eget, tincidunt finibus elit. Curabitur ac elit non sem bibendum venenatis. Vivamus elementum metus ut ligula sodales fringilla.
                     </p>
+                    <!-- TODO: add resume -->
+                    <div class="text-center">
+                        <a href="documents/resume.pdf"><button class="btn">RESUME</button></a>
+                    </div>
                 </div>
                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
             </div>
-        </div>
-        <div class="container-fluid" id="experience">
+        </section>
+
+        <!-- ********** EXPERIENCE ********** -->
+        <section class="container-fluid" id="experience">
             <div class="row">
                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
                 <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -105,39 +111,84 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" id="skills">
                             <h2>Skills</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. Donec mattis eget ante nec fringilla. Aenean accumsan aliquam ante, ut posuere sapien sollicitudin non.
-                                In a rhoncus est, at mollis sem. Quisque ac turpis consequat, commodo lacus sit amet, bibendum nisi. Sed non faucibus justo, elementum auctor augue. Curabitur ultrices justo ac mattis laoreet. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ac laoreet diam. Fusce est tellus, feugiat non metus nec, sodales suscipit odio. Duis pulvinar elit eget eros finibus placerat.
-                                <br><br>Suspendisse ullamcorper, risus id porta dignissim, ligula urna blandit dui, nec varius sem nisi sed tortor. Quisque odio mi, euismod eu nisl id, vulputate scelerisque augue. Sed id est mi. Cras commodo lorem lorem,
-                                nec aliquet velit convallis at. Suspendisse feugiat feugiat velit quis posuere. Mauris auctor, turpis sit amet commodo egestas, ante diam efficitur justo, sed rhoncus felis massa quis nulla. Integer facilisis, nibh sit
-                                amet ornare pellentesque, libero justo tincidunt dui, posuere facilisis quam diam at dolor. Ut a metus sem. Praesent metus leo, tincidunt eu aliquam eu, finibus ut augue. Fusce posuere diam id lacus convallis, sed vulputate
-                                nisl auctor. In pulvinar, ligula vel volutpat rutrum, purus nulla maximus nisl, a dictum lectus lectus quis velit. Aliquam purus nulla, volutpat vel tellus ut, imperdiet ultrices magna. Pellentesque sodales venenatis lobortis.
-                                Etiam ut sollicitudin nunc. Suspendisse pharetra, est eu consequat efficitur, sapien turpis rutrum tellus, sit amet elementum augue ex ac nunc.
-                                <br><br>Sed sem sapien, fermentum sit amet scelerisque nec, iaculis vitae mauris. In nec volutpat neque, ut viverra nibh. In a risus elit. Nam ut dolor nec metus ultricies facilisis. Pellentesque id iaculis ex. Sed nec
-                                ex a nunc scelerisque convallis a ac mauris. In non interdum metus. Nullam commodo, augue sit amet venenatis tincidunt, felis mi ullamcorper lorem, ut consequat tortor purus a quam. Sed suscipit turpis eu pellentesque consectetur.
-                                In hac habitasse platea dictumst. Fusce felis felis, lacinia a turpis sed, elementum tincidunt tortor. Aliquam vitae pharetra purus, vel egestas justo. Cras posuere lectus vitae justo auctor, id suscipit tellus rhoncus.
-                                Suspendisse vel ex vel lacus dapibus tincidunt. Vivamus pellentesque quam tempor dolor euismod aliquam. Duis ut nunc venenatis, porttitor dolor quis, mollis lacus.
-                            </p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <div class="bar-text"><span>Java</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                                    <div class="bar-text"><span>HTML/CSS</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                    <div class="bar-text"><span>JavaScript/JQuery</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                                    <div class="bar-text"><span>Bootstrap</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <div class="bar-text"><span>Python</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <div class="bar-text"><span>Git/Github</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                    <div class="bar-text"><span>Swift</span></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                    <div class="bar-text"><span>C/C++</span></div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" id="courses">
                             <h2>Courses</h2>
-                            <p>Nam ac turpis vitae ipsum malesuada mollis nec sit amet lacus. Nam dictum, mauris non accumsan hendrerit, elit erat sagittis sem, ut malesuada enim risus et lorem. Nullam luctus, enim at ornare convallis, sapien dolor hendrerit
-                                orci, vel luctus urna quam et ante. Sed eget ligula nulla. Donec magna enim, vulputate vel congue ut, malesuada et tortor. Mauris id dui nisl. Ut fringilla placerat velit, eget sodales lorem sollicitudin in. Vestibulum
-                                nec nunc magna. Aliquam risus sapien, volutpat a commodo a, sagittis eu diam. Nullam ac leo augue. Praesent elementum est ut elit viverra lacinia. Mauris bibendum lacus nec molestie rutrum.
-                                <br><br>Sed placerat sollicitudin est, ac efficitur est molestie eget. Morbi aliquam fermentum ipsum, in vulputate arcu pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Sed eget fringilla nunc, in porta mauris. Etiam vulputate, mi et convallis egestas, orci augue luctus augue, convallis consequat est nunc eget purus. Duis tincidunt euismod sem, vitae maximus nibh bibendum sit
-                                amet. Etiam tincidunt pulvinar ante, posuere porta tellus. Sed ac dolor non mauris ullamcorper vulputate. Duis id sapien quis lectus elementum lobortis vitae nec nisi. Sed et dui vel augue pulvinar porta. Pellentesque blandit
-                                quam eu ante lacinia condimentum. Aliquam dictum consectetur mauris at condimentum. Donec tortor mauris, fringilla sed mi eget, tincidunt finibus elit. Curabitur ac elit non sem bibendum venenatis. Vivamus elementum metus
-                                ut ligula sodales fringilla.
-                            </p>
+                            <ul id="courses-list">
+                                <!-- TODO: Uncomment courses once I complete them -->
+                                <!-- <li>CMSI 485: Artificial Intelligence</li> -->
+                                <!-- <li>CMSI 386: Programming Languages</li> -->
+                                <!-- <li>CMSI 385: Introduction to Theory of Computation</li> -->
+                                <!-- <li>CMSI 370: Interaction Design</li> -->
+                                <li>CMSI 284: Computer Systems Organization</li>
+                                <li>CMSI 282: Algorithms</li>
+                                <li>CMSI 281: Data Structures</li>
+                                <li>CMSI 186: Programming Lab (Java)</li>
+                                <li>CMSI 185: Computer Programming (HTML, JavaScript, CSS)</li>
+                                <li>MATH 366: Discrete Methods</li>
+                                <li>MATH 248: Introduction to Methods of Proof</li>
+                                <li>MATH 234: Calculus III</li>
+                                <li>MATH 132: Calculus II</li>
+                                <li>MATH 131: Calculus I</li>
+                                <li>ELEC 281: Logic Design</li>
+                                <li>PHIL 3510: Ancient Philosophy</li>
+                                <!-- <li>PHIL 3100: The Good Life</li> -->
+                                <li>PHIL 2010: Symbolic Logic</li>
+                                <li>PHIL 1800: Philosophical Inquiry</li>
+                                <!-- <li>EDLA 491: Leadership Seminar III</li> -->
+                                <li>EDLA 490: Leadership Seminar II</li>
+                                <li>EDLA 489: Leadership Seminar I</li>
+                                <p>And more to come...</p>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
             </div>
-        </div>
-        <div class="container-fluid" id="portfolio">
+        </section>
+
+        <!-- ********** PORTFOLIO ********** -->
+        <section class="container-fluid" id="portfolio">
             <div class="row">
                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
                 <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -158,16 +209,17 @@
                         <br><br>Nam ac turpis vitae ipsum malesuada mollis nec sit amet lacus. Nam dictum, mauris non accumsan hendrerit, elit erat sagittis sem, ut malesuada enim risus et lorem. Nullam luctus, enim at ornare convallis, sapien dolor hendrerit
                         orci, vel luctus urna quam et ante. Sed eget ligula nulla. Donec magna enim, vulputate vel congue ut, malesuada et tortor. Mauris id dui nisl. Ut fringilla placerat velit, eget sodales lorem sollicitudin in. Vestibulum nec nunc
                         magna. Aliquam risus sapien, volutpat a commodo a, sagittis eu diam. Nullam ac leo augue. Praesent elementum est ut elit viverra lacinia. Mauris bibendum lacus nec molestie rutrum.
-                        <br><br>Sed placerat sollicitudin est, ac efficitur est molestie eget. Morbi aliquam fermentum ipsum, in vulputate arcu pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Sed eget fringilla nunc, in porta mauris. Etiam vulputate, mi et convallis egestas, orci augue luctus augue, convallis consequat est nunc eget purus. Duis tincidunt euismod sem, vitae maximus nibh bibendum sit amet. Etiam tincidunt
-                        pulvinar ante, posuere porta tellus. Sed ac dolor non mauris ullamcorper vulputate. Duis id sapien quis lectus elementum lobortis vitae nec nisi. Sed et dui vel augue pulvinar porta. Pellentesque blandit quam eu ante lacinia condimentum.
-                        Aliquam dictum consectetur mauris at condimentum. Donec tortor mauris, fringilla sed mi eget, tincidunt finibus elit. Curabitur ac elit non sem bibendum venenatis. Vivamus elementum metus ut ligula sodales fringilla.
                     </p>
+                    <div class="text-center">
+                        <a href="https://www.github.com/dmoini" target="_blank"><button class="btn">SEE MORE WORK ON GITHUB</button></a>
+                    </div>
                 </div>
                 <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
             </div>
-        </div>
+        </section>
     </div>
+
+    <!-- ********** CONTACT ********** -->
     <div class="d-block d-xs-block d-md-none" id="contact">
         <div class="center-icons-horizontally" id="contact-icons">
             <a href="mailto:donnym99@gmail.com?Subject=You're Hired!" target="_top" id="topnav-email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -178,8 +230,6 @@
             <a href="https://www.facebook.com/d.moini" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </div>
     </div>
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
