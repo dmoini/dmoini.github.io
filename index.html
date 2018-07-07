@@ -26,7 +26,7 @@
                 <p><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></p>
                 <p><a href="#about"><i class="fa fa-user" aria-hidden="true"></i></a></p>
                 <p><a href="#experience"><i class="fas fa-file-alt" aria-hidden="true"></i></a></p>
-                <p><a href="#portfolio"><i class="fas fa-book-open" aria-hidden="true"></i></a></p>
+                <p><a href="#projects"><i class="fas fa-code" aria-hidden="true"></i></a></p>
                 <p><a href="mailto:donnym99@gmail.com?Subject=You're Hired!" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></p>
             </div>
             <div id="sidenav-bottom">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="d-block d-xs-block d-md-none" id="topnav">
+    <div class="d-flex d-md-none" id="topnav">
         <!-- TODO: FIX THIS SHIT -->
         <div id="topnav-logo">
             <a href="https://dmoini.github.io/"><img src="images/logo.png" id="logo-topnav"></a>
@@ -47,7 +47,7 @@
             <a href="#home" id="topnav-home"><i class="fa fa-home" aria-hidden="true"></i></a>
             <a href="#about" id="topnav-about"><i class="fa fa-user" aria-hidden="true"></i></a>
             <a href="#experience" id="topnav-experience"><i class="fas fa-file-alt" aria-hidden="true"></i></a>
-            <a href="#portfolio" id="topnav-portfolio"><i class="fas fa-book-open" aria-hidden="true"></i></a>
+            <a href="#projects" id="topnav-projects"><i class="fas fa-code" aria-hidden="true"></i></a>
             <a href="#contact"><i class="fas fa-address-book" aria-hidden="true"></i></a>
         </div>
     </div>
@@ -192,12 +192,269 @@
             </div>
         </section>
 
-        <!-- ********** PORTFOLIO ********** -->
-        <section class="container-fluid" id="portfolio">
-            <div class="row">
-                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
-                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                    <h1>Portfolio</h1>
+        <!-- ********** PROJECTS ********** -->
+        <section id="projects">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                </div>
+            </div>
+            <ul class="nav nav-tabs nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#data-algorithms">Data Structures and Algorithms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#programming-lab">Programming Lab</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#computer-systems">Computer Systems Organization</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#other">Other</a>
+                </li> -->
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane container fade show active" id="data-algorithms">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <h3>Data Structures and Algorithms</h3>
+                            <p>Some of my projects completed in my Data Structures and Algorithms courses. All projects were coded in Java.</p>
+                            <p>To see more, visit my GitHub repositories.</p>
+                            <a href="https://github.com/dmoini/cmsi281-data-structures" target="_blank"><button class="btn">Data Structures</button></a>
+                            <a href="https://github.com/dmoini/cmsi282-algorithms" target="_blank"><button class="btn">Algorithms</button></a>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane container fade" id="programming-lab">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <h3>Programming Lab</h3>
+                            <p>Some of my projects completed in my Programming Lab course. All projects were coded in Java.</p>
+                            <p>To see more, visit my GitHub repository.</p>
+                            <a href="https://github.com/dmoini/cmsi186-programming-lab" target="_blank"><button class="btn">Programming Lab</button></a>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane container fade" id="computer-systems">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <h3>Programming Lab</h3>
+                            <p>Some of my projects completed in my Computer Systems Organization course. All projects were coded in C.</p>
+                            <p>To see more, visit my GitHub repository.</p>
+                            <a href="https://github.com/dmoini/cmsi-284-computer-systems-organization" target="_blank"><button class="btn">Computer Systems Organization</button></a>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <div class="square" style="background-image: url('https://avatars2.githubusercontent.com/u/21349168?s=460&v=4')"></div>
+                                <p><strong>Project Title</strong></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. </p>
+                                <a href="https://github.com/dmoini" target="_blank"><button class="btn">SEE PROJECT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div role="tabpanel" class="tab-pane container fade" id="other">
+                    <h3>Other</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra vehicula sapien vel euismod. Pellentesque ac nibh non risus finibus pulvinar. Donec mattis eget ante nec fringilla. Aenean accumsan aliquam ante, ut posuere sapien sollicitudin non.
                         In a rhoncus est, at mollis sem. Quisque ac turpis consequat, commodo lacus sit amet, bibendum nisi. Sed non faucibus justo, elementum auctor augue. Curabitur ultrices justo ac mattis laoreet. Class aptent taciti sociosqu ad litora
@@ -207,19 +464,11 @@
                         pellentesque, libero justo tincidunt dui, posuere facilisis quam diam at dolor. Ut a metus sem. Praesent metus leo, tincidunt eu aliquam eu, finibus ut augue. Fusce posuere diam id lacus convallis, sed vulputate nisl auctor. In
                         pulvinar, ligula vel volutpat rutrum, purus nulla maximus nisl, a dictum lectus lectus quis velit. Aliquam purus nulla, volutpat vel tellus ut, imperdiet ultrices magna. Pellentesque sodales venenatis lobortis. Etiam ut sollicitudin
                         nunc. Suspendisse pharetra, est eu consequat efficitur, sapien turpis rutrum tellus, sit amet elementum augue ex ac nunc.
-                        <br><br>Sed sem sapien, fermentum sit amet scelerisque nec, iaculis vitae mauris. In nec volutpat neque, ut viverra nibh. In a risus elit. Nam ut dolor nec metus ultricies facilisis. Pellentesque id iaculis ex. Sed nec ex a nunc
-                        scelerisque convallis a ac mauris. In non interdum metus. Nullam commodo, augue sit amet venenatis tincidunt, felis mi ullamcorper lorem, ut consequat tortor purus a quam. Sed suscipit turpis eu pellentesque consectetur. In hac
-                        habitasse platea dictumst. Fusce felis felis, lacinia a turpis sed, elementum tincidunt tortor. Aliquam vitae pharetra purus, vel egestas justo. Cras posuere lectus vitae justo auctor, id suscipit tellus rhoncus. Suspendisse vel
-                        ex vel lacus dapibus tincidunt. Vivamus pellentesque quam tempor dolor euismod aliquam. Duis ut nunc venenatis, porttitor dolor quis, mollis lacus.
-                        <br><br>Nam ac turpis vitae ipsum malesuada mollis nec sit amet lacus. Nam dictum, mauris non accumsan hendrerit, elit erat sagittis sem, ut malesuada enim risus et lorem. Nullam luctus, enim at ornare convallis, sapien dolor hendrerit
-                        orci, vel luctus urna quam et ante. Sed eget ligula nulla. Donec magna enim, vulputate vel congue ut, malesuada et tortor. Mauris id dui nisl. Ut fringilla placerat velit, eget sodales lorem sollicitudin in. Vestibulum nec nunc
-                        magna. Aliquam risus sapien, volutpat a commodo a, sagittis eu diam. Nullam ac leo augue. Praesent elementum est ut elit viverra lacinia. Mauris bibendum lacus nec molestie rutrum.
                     </p>
-                    <div class="text-center">
-                        <a href="https://www.github.com/dmoini" target="_blank"><button class="btn">SEE MORE WORK ON GITHUB</button></a>
-                    </div>
-                </div>
-                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                </div> -->
+            </div>
+            <div class="text-center">
+                <a href="https://www.github.com/dmoini" target="_blank"><button class="btn">CHECK OUT ALL MY WORK ON GITHUB</button></a>
             </div>
         </section>
     </div>
@@ -238,7 +487,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/c7a8f8e58d.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/scrolling.js"></script>
