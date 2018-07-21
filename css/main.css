@@ -1,8 +1,9 @@
 :root {
     --seafoam: #00ffda;
-    --gray: #696969;
-    --dark-gray: #333333;
     --light-gray: #b7b7b7;
+    --gray: #696969;
+    --medium-gray: #4e4e4e;
+    --dark-gray: #333333;
 }
 
 h1:not(.home-header) {
@@ -24,9 +25,21 @@ h2 {
     color: white;
 }
 
+h3 {
+    font-size: 2em;
+}
+
+h5 {
+    padding-top: 10px;
+}
+
 p {
     font-family: "Open Sans", sans-serif;
     color: white;
+}
+
+p strong {
+    color: red;
 }
 
 #about, #experience, #projects {
@@ -119,7 +132,7 @@ p {
     color: var(--seafoam);
 }
 
-#logo-sidenav, #logo-topnav {
+.logo {
     height: 60px;
     width: 60px;
     padding: 10px;
@@ -138,7 +151,6 @@ p {
         margin: 60px 0 0;
     }
     #home, #about, #experience, #projects {
-        /* TODO: update? */
         padding-top: 60px;
     }
 }
@@ -150,7 +162,6 @@ p {
 /* TODO: get clearer image of logo */
 
 /* .background-image {
-    background-image: url(images/logo-background.png);
     background-position: right 15% center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -204,18 +215,10 @@ p {
     color: white;
 }
 
-/* #courses-list li {
-    list-style-type: square;
-    list-style-image: url('image url');
-}  */
-
 /********** PROJECTS **********/
-
-/* TODO: organization of tabs for mobile and make vertical height the same for all tabs */
 
 .nav-tabs {
     display: flex;
-    /* border-bottom: 1px solid white; */
 }
 
 .nav-tabs li {
@@ -225,11 +228,6 @@ p {
 
 .nav-tabs li a {
     flex: 1;
-}
-
-.nav-item {
-    /* border: 1px solid white; */
-    border-radius: 12.5px;
 }
 
 .nav-item:hover {
@@ -245,17 +243,51 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-    .nav-tabs {
-        border-bottom: 1px solid white;
+    #navbar-md-lg-xl {
+        display: none;
     }
-    .nav-item {
-        border: 1px solid white;
-        border-radius: 12.5px;
+}
+
+@media only screen and (min-width: 768px) {
+    #navbar-sm-xs {
+        display: none;
     }
-    .nav-tabs .nav-link.active {
-        background-color: var(--gray);
-        border-radius: 12.5px;
-    }
+}
+
+.dropdown-toggle {
+    background-color: var(--dark-gray);
+    border: 1px solid white !important;
+}
+
+.dropdown-toggle:hover {
+    background-color: var(--gray);
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle, .dropdown-toggle:focus {
+    background-color: var(--gray) !important;
+}
+
+.dropdown-menu-center {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 100vw;
+    margin-top: 41px;
+    margin-left: -5px;
+}
+
+.dropdown-menu {
+    background-color: var(--dark-gray);
+    border: 1px solid white;
+}
+
+.dropdown-item:hover {
+    background-color: var(--gray);
+}
+
+.dropdown-item.active {
+    background-color: var(--medium-gray);
 }
 
 .tab-content {
@@ -279,10 +311,11 @@ p {
 }
 
 .square {
-    width: 100%;
+    margin: 5px;
     padding-bottom: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
+    /* border: 1px solid white; */
 }
 
 .thumbnail .btn {
@@ -293,8 +326,7 @@ p {
 
 .thumbnail .btn:hover {
     background-color: var(--seafoam);
-    border-color: var(--dark-gray);
-    color: var(--dark-gray);
+    color: var(--gray);
 }
 
 /********** CONTACT FOOTER **********/
