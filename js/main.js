@@ -9,8 +9,8 @@ $(document).ready(function() {
         .not("[href='#computer-systems']")
         .click(function(event) {
             // On-page links
-            if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") &&
-                location.hostname == this.hostname) {
+            if (location.pathname.replace(/^\//, "") === this.pathname.replace(/^\//, "") &&
+                location.hostname === this.hostname) {
                 // Figure out element to scroll to
                 var target = $(this.hash);
                 target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
@@ -20,7 +20,7 @@ $(document).ready(function() {
                     event.preventDefault();
                     $("html, body").animate({
                         scrollTop: target.offset().top
-                    }, 1200, function() {
+                    }, 1000, function() {
                         // Callback after animation
                         // Must change focus"
                         var $target = $(target);
