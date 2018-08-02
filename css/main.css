@@ -1,15 +1,15 @@
 :root {
-    --seafoam: #00ffda;
-    --light-gray: #b7b7b7;
-    --gray: #696969;
-    --medium-gray: #4e4e4e;
     --dark-gray: #333333;
+    --gray: #696969;
+    --light-gray: #b7b7b7;
+    --medium-gray: #4e4e4e;
+    --seafoam: #00ffda;
 }
 
 h1:not(.home-header) {
+    color: var(--seafoam);
     font-family: "bebas_neuebold", sans-serif;
-    font-size: 100px;
-    color: var(--seafoam)
+    font-size: 100px
 }
 
 @media only screen and (max-width: 767px) {
@@ -19,10 +19,10 @@ h1:not(.home-header) {
 }
 
 h2 {
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: white;
 }
 
 h3 {
@@ -34,8 +34,8 @@ h5 {
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
     color: white;
+    font-family: "Open Sans", sans-serif;
 }
 
 p strong {
@@ -50,10 +50,10 @@ p strong {
     background-color: var(--dark-gray);
     border-color: var(--seafoam);
     color: var(--seafoam);
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: "bebas_neuethin", sans-serif;
     font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .btn:hover {
@@ -65,14 +65,14 @@ p strong {
 /********** NAVIGATION BAR **********/
 
 #sidenav {
-    height: 100%;
-    width: 60px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background: black;
+    height: 100%;
+    left: 0;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 60px;
+    z-index: 1;
 }
 
 #sidenav-icons {
@@ -88,44 +88,44 @@ p strong {
 }
 
 #sidenav-bottom {
-    padding-left: 2.5px;
     font-size: 20px;
+    padding-left: 2.5px;
     position: absolute;
     top: 98%;
     transform: translateY(-105%);
 }
 
 #sidenav-icons a {
+    color: var(--gray);
     padding: 6px 17px;
     text-decoration: none;
-    color: var(--gray);
 }
 
 #topnav {
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
     background: black;
+    height: 60px;
+    left: 0;
     overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 #topnav-icons {
-    width: calc(100vw - 60px);
-    padding-top: 11px;
     padding-bottom: 11px;
+    padding-top: 11px;
+    width: calc(100vw - 60px);
 }
 
 #topnav-icons a {
     color: var(--gray);
-    text-decoration: none;
     font-size: 25px;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
+    text-decoration: none;
 }
 
 #sidenav-icons a:hover, #topnav-icons a:hover, #contact a:hover {
@@ -134,16 +134,16 @@ p strong {
 
 .logo {
     height: 60px;
-    width: 60px;
     padding: 10px;
+    width: 60px;
 }
 
 /********** MAIN **********/
 
 #main {
-    margin-left: 60px;
     background-color: var(--dark-gray);
     color: white;
+    margin-left: 60px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -159,7 +159,7 @@ p strong {
     color: var(--seafoam);
 }
 
-/* TODO: get clearer image of logo */
+/* TODO:10 get clearer image of logo*/
 
 /* .background-image {
     background-position: right 15% center;
@@ -186,33 +186,33 @@ p strong {
 }
 
 .progress {
-    background-color: var(--gray);
-    height: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 0;
-    -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: var(--gray);
+    border-radius: 0;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .progress-bar {
-    height: 20px;
-    font-size: 125%;
-    text-align: left;
     background-color: var(--seafoam);
+    font-size: 125%;
+    height: 20px;
+    text-align: left;
 }
 
 .bar-text {
+    color: var(--dark-gray);
     font-family: "Open Sans", sans-serif;
     padding-left: 15px;
-    color: var(--dark-gray);
 }
 
 #courses-list {
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    color: white;
 }
 
 /********** PROJECTS **********/
@@ -236,10 +236,10 @@ p strong {
 
 .nav-tabs .nav-link.active {
     background-color: var(--dark-gray);
-    border-top: 1px solid white;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
     border-bottom: 1px solid var(--dark-gray);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
 }
 
 @media only screen and (max-width: 767px) {
@@ -269,12 +269,12 @@ p strong {
 
 .dropdown-menu-center {
     left: 50%;
+    margin-left: -5px;
+    margin-top: 41px;
     right: auto;
     text-align: center;
     transform: translate(-50%, 0);
     width: 100vw;
-    margin-top: 41px;
-    margin-left: -5px;
 }
 
 .dropdown-menu {
@@ -299,22 +299,22 @@ p strong {
 }
 
 .thumbnail {
-    padding: 5px 5px 15px 5px;
     background-color: var(--gray);
-    margin-top: 15px;
     margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 5px 5px 15px 5px;
 }
 
 .thumbnail p {
-    margin-top: 15px;
     color: white;
+    margin-top: 15px;
 }
 
 .square {
+    background-position: center;
+    background-size: 100% 100%;
     margin: 5px;
     padding-bottom: 100%;
-    background-size: 100% 100%;
-    background-position: center;
     /* border: 1px solid white; */
 }
 
@@ -332,24 +332,24 @@ p strong {
 /********** CONTACT FOOTER **********/
 
 #contact {
-    width: 100%;
-    height: 60px;
     background-color: black;
+    height: 60px;
     overflow: hidden;
+    width: 100%;
 }
 
 #contact-icons {
-    width: 100%;
     height: 100%;
-    padding-top: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 #contact a {
     color: var(--gray);
-    text-decoration: none;
     font-size: 25px;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
+    text-decoration: none;
 }
