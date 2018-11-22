@@ -29,6 +29,10 @@ h3 {
     font-size: 2em;
 }
 
+h4 {
+    color: var(--seafoam);
+}
+
 h5 {
     padding-top: 10px;
 }

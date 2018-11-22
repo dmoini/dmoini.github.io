@@ -6,7 +6,7 @@ $(document).ready(function() {
         // Remove links that don"t actually link to anything
         .not("[href='#algorithms-data']")
         .not("[href='#programming-lab']")
-        .not("[href='#computer-systems']")
+        .not("[href='#other']")
         .click(function(event) {
             // On-page links
             if (location.pathname.replace(/^\//, "") === this.pathname.replace(/^\//, "") &&
