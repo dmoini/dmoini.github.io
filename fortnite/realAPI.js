@@ -31,7 +31,7 @@
   const okCheck = statusCheck([HTTP_OK])
 
   const headers = {
-    // 'content-type': 'multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW',
+    'content-type': 'multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW',
     'Authorization': API_KEY,
     'X-Fortnite-API-Version': 'v1.1'
   }
