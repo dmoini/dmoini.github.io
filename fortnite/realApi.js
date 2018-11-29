@@ -34,7 +34,9 @@
     'content-type': 'multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW',
     'Authorization': API_KEY,
     'X-Fortnite-API-Version': 'v1.1',
-    'Access-Control-Allow-Origin': '*'
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
+    'Access-Control-Allow-Headers': 'Authorization'
   }
 
   const paramsWithApiKey = params => {
