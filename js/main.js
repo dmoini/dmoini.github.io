@@ -6,6 +6,7 @@ $(document).ready(function() {
         // Remove links that don"t actually link to anything
         .not("[href='#artificial-intelligence']")
         .not("[href='#algorithms-data']")
+        .not("[href='#programming-lab']")
         .not("[href='#other']")
         .click(function(event) {
             // On-page links
