@@ -214,13 +214,13 @@
             <div id="navbar-md-lg-xl">
                 <ul class="nav nav-tabs nav-justified">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#artificial-intelligence">Artificial Intelligence</a>
+                        <a class="nav-link active" data-toggle="tab" href="#noteworthy-projects">Noteworthy Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#artificial-intelligence">Artificial Intelligence</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#algorithms-data">Algorithms and Data Structures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#programming-lab">Programming Lab</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#other">Other Projects</a>
@@ -232,16 +232,65 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="dropdown">Projects</a>
                         <div class="dropdown-menu dropdown-menu-center">
+                            <a class="dropdown-item" data-toggle="tab" href="#noteworthy-projects">Noteworthy Projects</a>
                             <a class="dropdown-item" data-toggle="tab" href="#artificial-intelligence">Artificial Intelligence</a>
                             <a class="dropdown-item" data-toggle="tab" href="#algorithms-data">Algorithms and Data Structures</a>
-                            <a class="dropdown-item" data-toggle="tab" href="#programming-lab">Programming Lab</a>
                             <a class="dropdown-item" data-toggle="tab" href="#other">Other</a>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="tab-content">
-                <div class="tab-pane container fade show active" role="tabpanel" id="artificial-intelligence">
+                <div class="tab-pane container fade show active" role="tabpanel" id="noteworthy-projects">
+                    <div class="row py-3">
+                        <div class="col-md-2">
+                            <div class="square" style="background-image: url('images/playroll.png')"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Playroll</h4>
+                            <p>
+                                Playroll is an application that allows users to create playrolls, which replace the traditional idea of playlists.
+                                Using a set of unique algorithms, Playroll uses your provided music to create the perfect playlist.
+                                Worked on backend using Go, GORM, GraphQL, and PostgresDB.
+                            </p>
+                            <a href="http://join.playroll.io" target="_blank"><button type="button" class="btn">DOWNLOAD THE APP</button></a>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="square" style="background-image: url('images/casper.png')"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Casper Programming Language</h4>
+                            <p>
+                                Collaborated with four other LMU students to create Casper: The Friendly Programming Language. 
+                                Casper incorporates a speech-like, easy-to-use syntax that eliminates unnecessary verboseness from the programming experience. 
+                                Casper is reminiscent of Python with nuanced features and syntax designed to make its meaning as transparent as possible and make programming an entirely pleasant affair.
+                            </p>
+                            <a href="https://dmoini.github.io/casper/" target="_blank"><button type="button" class="btn">CHECK OUT WEBSITE</button></a>
+                            <a href="https://github.com/dmoini/casper" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-md-2">
+                            <div class="square" style="background-image: url('images/fortnite.jpg')"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Fortnite Stat Tracker</h4>
+                            <p>Fortnite web application that retrieves player stats, daily shop items, and weekly challenges. Coded with HTML, JavaScript/jQuery, CSS, Bootstrap, and <a href="https://fortniteapi.com/">Fortnite API</a>. Currently only viewable on Google Chrome desktop.</p>
+                            <a href="https://dmoini.github.io/fortnite-stat-tracker/" target="_blank"><button type="button" class="btn">TRY IT OUT</button></a>
+                            <a href="https://github.com/dmoini/fortnite-stat-tracker" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="square" style="background-image: url('images/hog.png')"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Hog</h4>
+                            <p>Created utility function that outputs which PIDs are using up the most CPU% on your machine.</p>
+                            <a href="https://github.com/dmoini/cmsi387-operating-systems/blob/master/Semester%20Project/hog.c" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane container fade" role="tabpanel" id="artificial-intelligence">
                     <div class="row">
                         <div class="col-xl-8 col-md-8 col-xs-12">
                             <h3>Artificial Intelligence</h3>
@@ -350,88 +399,7 @@
                     </div>
                 </div>
 
-                <div role="tabpanel" class="tab-pane container fade" id="programming-lab">
-                    <div class="row">
-                        <div class="col-xl-8 col-md-8 col-xs-12">
-                            <h3>Programming Lab</h3>
-                            <p>Here are some of my projects completed in my Programming Lab course. All projects were coded in Java.</p>
-                            <p>To see more, visit my GitHub repository.</p>
-                            <a href="https://github.com/dmoini/cmsi186-programming-lab" target="_blank"><button type="button" class="btn">Programming Lab</button></a>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/numbers.png')"></div>
-                                <h5>Intzilla</h5>
-                                <p>Integrates arithmetic for arbitrarily large integers from scratch and demonstrates their capabilities with a factorial, fibonacci, and exponent class.</p>
-                                <a href="https://github.com/dmoini/cmsi186-programming-lab/tree/master/Intzilla" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/coins.png')"></div>
-                                <h5>Optimal Change Maker</h5>
-                                <p>Uses dynamic programming to solve the <a href="https://en.wikipedia.org/wiki/Change-making_problem" target="_blank">change-making problem</a>.</p>
-                                <a href="https://github.com/dmoini/cmsi186-programming-lab/tree/master/OptimalChangeMaker" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/pi.png')"></div>
-                                <h5>Pi Estimator</h5>
-                                <p>Implements Monte Carlo simulation to estimate the value of pi.</p>
-                                <a href="https://github.com/dmoini/cmsi186-programming-lab/tree/master/PiEstimator" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/money.png')"></div>
-                                <h5>Game of Coins</h5>
-                                <p>Creates coin objects to calculate probability of flipping a various number of coins.</p>
-                                <a href="https://github.com/dmoini/cmsi186-programming-lab/tree/master/GameOfCoins" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/cars.png')"></div>
-                                <h5>World of Carcraft</h5>
-                                <p>Looks at discrete event simulation through a traffic simulator.</p>
-                                <a href="https://github.com/dmoini/cmsi186-programming-lab/tree/master/WorldOfCarcraft" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div role="tabpanel" class="tab-pane container fade" id="other">
-                    <div class="row py-3">
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/casper.png')"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Casper Programming Language</h4>
-                            <p>
-                                Collaborated with four other LMU students to create Casper: The Friendly Programming Language. 
-                                Casper incorporates a speech-like, easy-to-use syntax that eliminates unnecessary verboseness from the programming experience. 
-                                Casper is reminiscent of Python with nuanced features and syntax designed to make its meaning as transparent as possible and make programming an entirely pleasant affair.
-                            </p>
-                            <a href="https://dmoini.github.io/casper/" target="_blank"><button type="button" class="btn">CHECK OUT WEBSITE</button></a>
-                            <a href="https://github.com/dmoini/casper" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/fortnite.jpg')"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Fortnite Stat Tracker</h4>
-                            <p>Fortnite web application that retrieves player stats, daily shop items, and weekly challenges. Coded with HTML, JavaScript/jQuery, CSS, Bootstrap, and <a href="https://fortniteapi.com/">Fortnite API</a>. Currently only viewable on Google Chrome desktop.</p>
-                            <a href="https://dmoini.github.io/fortnite-stat-tracker/" target="_blank"><button type="button" class="btn">TRY IT OUT</button></a>
-                            <a href="https://github.com/dmoini/fortnite-stat-tracker" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                    </div>
                     <div class="row py-3">
                         <div class="col-md-2">
                             <div class="square" style="background-image: url('images/programming-languages.png')"></div>
@@ -452,6 +420,16 @@
                             <a href="https://github.com/dmoini/cmsi-284-computer-systems-organization" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
                         </div>
                     </div>
+                    <div class="row py-3">
+                            <div class="col-md-2">
+                                <div class="square" style="background-image: url('images/java.png')"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Programming Lab</h4>
+                                <p>Programming workshop where I completed projects including discrete simulation, randomized estimation, maze solving, dynamic programming, large-number arithmetic, and numerical methods. All projects coded in Java.</p>
+                                <a href="https://github.com/dmoini/cmsi186-programming-lab/" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div class="text-center">

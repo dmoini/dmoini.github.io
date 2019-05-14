@@ -4,9 +4,9 @@ $(document).ready(function() {
     // Select all links with hashes
     $("a[href*='#']")
         // Remove links that don"t actually link to anything
+        .not("[href='#noteworthy-projects']")
         .not("[href='#artificial-intelligence']")
         .not("[href='#algorithms-data']")
-        .not("[href='#programming-lab']")
         .not("[href='#other']")
         .click(function(event) {
             // On-page links
