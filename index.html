@@ -1,467 +1,550 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="fonts/bebas-nueue/stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-    <link rel="icon" href="images/favicon-32x32.png" type="image/png" sizes="32x32" />
-    <title>Donovan Moini's Portfolio Website</title>
+	<title>Read Only by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<!-- onload="$(document).ready(function(){$(this).scrollTop(0);}); -->
-<body">
+<body class="is-preload">
 
-    <!--
-                   ▄              ▄
-                  ▌▒█           ▄▀▒▌
-                  ▌▒▒█        ▄▀▒▒▒▐
-                 ▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐
-               ▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐
-             ▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌
-            ▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌
-            ▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
-           ▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌
-           ▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌
-          ▌▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒▐
-          ▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌
-          ▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▐
-           ▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒░▒░▒░▒░▒▒▒▌
-           ▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▄▒▒▐
-            ▀▄▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▄▒▒▒▒▌
-              ▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀
-                ▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀
-                   ▒▒▒▒▒▒▒▒▒▒▀▀
-    -->
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+			<h1 id="logo"><a href="#">Willis Corto</a></h1>
+			<p>I got reprogrammed by a rogue AI<br />
+				and now I'm totally cray</p>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#one" class="active">About</a></li>
+				<li><a href="#two">Things I Can Do</a></li>
+				<li><a href="#three">A Few Accomplishments</a></li>
+				<li><a href="#four">Contact</a></li>
+			</ul>
+		</nav>
+		<footer>
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+		</footer>
+	</section>
 
-    <!-- ********** NAVIGATION BAR ********** -->
-    <nav class="d-none d-md-block" id="sidenav">
-        <div id="sidenav-logo">
-            <a href="https://dmoini.github.io/"><img class="logo" src="images/logo.png"></a>
-        </div>
-        <div class="text-center" id="sidenav-icons">
-            <div id="sidenav-mid">
-                <p><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></p>
-                <p><a href="#about"><i class="fa fa-user" aria-hidden="true"></i></a></p>
-                <p><a href="#experience"><i class="fas fa-file-alt" aria-hidden="true"></i></a></p>
-                <p><a href="#projects"><i class="fas fa-code" aria-hidden="true"></i></a></p>
-                <p><a href="mailto:donovanmoini@gmail.com?Subject=You're Hired!" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></p>
-            </div>
-            <div id="sidenav-bottom">
-                <a href="https://www.github.com/dmoini" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><br>
-                <a href="https://www.linkedin.com/in/donovanmoini" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a><br>
-                <a href="https://instagram.com/d0nnym" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><br>
-                <a href="https://twitter.com/d0nnym_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><br>
-                <a href="https://www.facebook.com/d.moini" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </nav>
-    <nav class="d-flex d-md-none" id="topnav">
-        <div id="topnav-logo">
-            <a href="https://dmoini.github.io/"><img class="logo" src="images/logo.png"></a>
-        </div>
-        <div class="text-center" id="topnav-icons">
-            <a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
-            <a href="#about"><i class="fa fa-user" aria-hidden="true"></i></a>
-            <a href="#experience"><i class="fas fa-file-alt" aria-hidden="true"></i></a>
-            <a href="#projects"><i class="fas fa-code" aria-hidden="true"></i></a>
-            <a href="#contact"><i class="fas fa-address-book" aria-hidden="true"></i></a>
-        </div>
-    </nav>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-    <!-- ********** MAIN CONTENT ********** -->
-    <div id="main">
-        <!-- TODO: add to section tag below style="background-image: url('images/logo-background.png')" -->
-        <section class="background-image d-flex align-items-center" id="home">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-6 col-md-6 col-xs-12 offset-md-1">
-                        <h1 class="home-header wow fadeIn" data-wow-delay="0.5s">Hello!</h1>
-                        <h1 class="home-header wow fadeIn" data-wow-delay="1.25s">I'm Donovan and welcome to my portfolio!</h1>
-                        <a href="mailto:donovanmoini@gmail.com?Subject=You're Hired!" target="_top" class="wow fadeIn" data-wow-delay="2.0s"><button type="button" class="btn">CONTACT ME</button></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<!-- Main -->
+		<div id="main">
 
-        <!-- ********** ABOUT ME ********** -->
-        <section class="container-fluid" id="about">
-            <div class="row">
-                <div class="col-xl-10 col-md-10 col-xs-12 offset-md-1">
-                    <h1>About Me</h1>
-                    <!-- TODO: update about me -->
-                    <!-- THINGS TO TALK ABOUT: Who you are What kind of work you do How you do that work Where you want to go next And who YOU really want to work with. -->
-                    <p>
-                        I am currently an undergraduate student at <a href="https://www.lmu.edu/" target="_blank">Loyola Marymount University</a> pursuing my Bachelor of Science in Computer Science and Bachelor of Arts in Philosophy. Throughout my time
-                        in college, I have been involved with the Residence Hall Association, National Residence Hall Honorary, <a href="http://www.lmumagis.com/" target="_blank">MAGIS Service Organizaiton</a>, an Orientation leader, and more.
-                    </p>
-                    <p>
-                        Some fun facts about me include I was born and raised in the wonderful city of Los Angeles my entire life (and I do not plan on leaving anytime soon), I am a soccer fan and support Chelsea FC, I love watching movies and television shows, especially Brooklyn
-                        Nine-Nine, Rick and Morty, and Black Mirror, and I love meeting new people and spending time with my friends.
-                    </p>
-                    <p>
-                        I have enjoyed computer science and programming so much since I first started. Funny enough, it was a last minute change before I came to college to become a computer science major. Luckily enough, I have been able to pursue a field that both intrigues
-                        and challenges me on a daily basis, and I am excited to see how much more I will grow within this field.
-                    </p>
-                    <p>
-                        Additionally, I am incredible passionate about service and I have been doing service throughout all of college, and I plan on continuing to do so beyond college. I hope that with this passion and my evergrowing knowledge and skills in computer science,
-                        I can make a positive impact around me.
-                    </p>
-                    <div class="text-center">
-                        <a href="documents/resume.pdf"><button type="button" class="btn">RESUME</button></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<!-- One -->
+			<section id="one">
+				<div class="image main" data-position="center">
+					<img src="images/banner.jpg" alt="" />
+				</div>
+				<div class="container">
+					<header class="major">
+						<h2>Read Only</h2>
+						<p>Just an incredibly simple responsive site<br />
+							template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+					</header>
+					<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante
+						lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo.
+						Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum
+						blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+				</div>
+			</section>
 
-        <!-- ********** EXPERIENCE ********** -->
-        <section class="container-fluid" id="experience">
-            <div class="row">
-                <div class="col-xl-10 col-md-10 col-xs-12 offset-md-1">
-                    <h1>Experience</h1>
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6 col-xs-12" id="skills">
-                            <h2>Skills</h2>
-                            <div id="skills-progress">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                        <div class="bar-text"><span>Python</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                        <div class="bar-text"><span>HTML/CSS</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                                        <div class="bar-text"><span>JavaScript/jQuery</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                        <div class="bar-text"><span>Java</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
-                                        <div class="bar-text"><span>Swift</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                        <div class="bar-text"><span>C/C++</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                        <div class="bar-text"><span>Bootstrap</span></div>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                                        <div class="bar-text"><span>Git/Github</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-xs-12" id="courses">
-                            <h2>Courses</h2>
-                            <ul id="courses-list">
-                                <li>CMSI 485: Artificial Intelligence (Python)</li>
-                                <li>CMSI 386: Programming Languages</li>
-                                <li>CMSI 385: Introduction to Theory of Computation</li>
-                                <li>CMSI 370: Interaction Design (HTML, JavaScript, CSS)</li>
-                                <li>CMSI 284: Computer Systems Organization</li>
-                                <li>CMSI 282: Algorithms</li>
-                                <li>CMSI 281: Data Structures</li>
-                                <li>CMSI 186: Programming Lab (Java)</li>
-                                <li>CMSI 185: Computer Programming (HTML, JavaScript, CSS)</li>
-                                <li>MATH 366: Discrete Methods</li>
-                                <li>MATH 248: Introduction to Methods of Proof</li>
-                                <li>MATH 234: Calculus III</li>
-                                <li>MATH 132: Calculus II</li>
-                                <li>MATH 131: Calculus I</li>
-                                <li>ELEC 281: Logic Design</li>
-                                <li>PHIL 3510: Ancient Philosophy</li>
-                                <li>PHIL 2010: Symbolic Logic</li>
-                                <li>PHIL 1800: Philosophical Inquiry</li>
-                                <li>EDLA 491: Leadership Seminar III</li>
-                                <li>EDLA 490: Leadership Seminar II</li>
-                                <li>EDLA 489: Leadership Seminar I</li>
-                                <p>And more to come...</p>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<!-- Two -->
+			<section id="two">
+				<div class="container">
+					<h3>Things I Can Do</h3>
+					<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+						Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+					<ul class="feature-icons">
+						<li class="icon solid fa-code">Write all the code</li>
+						<li class="icon solid fa-cubes">Stack small boxes</li>
+						<li class="icon solid fa-book">Read books and stuff</li>
+						<li class="icon solid fa-coffee">Drink much coffee</li>
+						<li class="icon solid fa-bolt">Lightning bolt</li>
+						<li class="icon solid fa-users">Shadow clone technique</li>
+					</ul>
+				</div>
+			</section>
 
-        <!-- ********** PROJECTS ********** -->
-        <section id="projects">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-10 col-md-10 col-xs-12 offset-md-1">
-                        <h1>Projects</h1>
-                    </div>
-                </div>
-            </div>
-            <div id="navbar-md-lg-xl">
-                <ul class="nav nav-tabs nav-justified">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#noteworthy-projects">Noteworthy Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#artificial-intelligence">Artificial Intelligence</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#algorithms-data">Algorithms and Data Structures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#other">Other Projects</a>
-                    </li>
-                </ul>
-            </div>
-            <div id="navbar-sm-xs">
-                <ul class="nav nav-tabs nav-justified">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="dropdown">Projects</a>
-                        <div class="dropdown-menu dropdown-menu-center">
-                            <a class="dropdown-item" data-toggle="tab" href="#noteworthy-projects">Noteworthy Projects</a>
-                            <a class="dropdown-item" data-toggle="tab" href="#artificial-intelligence">Artificial Intelligence</a>
-                            <a class="dropdown-item" data-toggle="tab" href="#algorithms-data">Algorithms and Data Structures</a>
-                            <a class="dropdown-item" data-toggle="tab" href="#other">Other</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-content">
-                <div class="tab-pane container fade show active" role="tabpanel" id="noteworthy-projects">
-                    <div class="row py-3">
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/playroll.png')"></div>
-                        </div>
-                        <div class="col-md-4">
-                            <h4>Playroll</h4>
-                            <p>
-                                Playroll is an application that allows users to create playrolls, which replace the traditional idea of playlists.
-                                Using a set of unique algorithms, Playroll uses your provided music to create the perfect playlist.
-                                Worked on backend using Go, GORM, GraphQL, and PostgresDB.
-                            </p>
-                            <a href="http://join.playroll.io" target="_blank"><button type="button" class="btn">DOWNLOAD THE APP</button></a>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/casper.png')"></div>
-                        </div>
-                        <div class="col-md-4">
-                            <h4>Casper Programming Language</h4>
-                            <p>
-                                Collaborated with four other LMU students to create Casper: The Friendly Programming Language. 
-                                Casper incorporates a speech-like, easy-to-use syntax that eliminates unnecessary verboseness from the programming experience. 
-                                Casper is reminiscent of Python with nuanced features and syntax designed to make its meaning as transparent as possible and make programming an entirely pleasant affair.
-                            </p>
-                            <a href="https://dmoini.github.io/casper/" target="_blank"><button type="button" class="btn">CHECK OUT WEBSITE</button></a>
-                            <a href="https://github.com/dmoini/casper" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/fortnite.jpg')"></div>
-                        </div>
-                        <div class="col-md-4">
-                            <h4>Fortnite Stat Tracker</h4>
-                            <p>Fortnite web application that retrieves player stats, daily shop items, and weekly challenges. Coded with HTML, JavaScript/jQuery, CSS, Bootstrap, and <a href="https://fortniteapi.com/">Fortnite API</a>.</p>
-                            <a href="https://dmoini.github.io/fortnite-stat-tracker/" target="_blank"><button type="button" class="btn">TRY IT OUT</button></a>
-                            <a href="https://github.com/dmoini/fortnite-stat-tracker" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/hog.png')"></div>
-                        </div>
-                        <div class="col-md-4">
-                            <h4>Hog</h4>
-                            <p>Created utility function that outputs which PIDs are using up the most CPU% on your machine.</p>
-                            <a href="https://github.com/dmoini/cmsi387-operating-systems/tree/master/Semester%20Project" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-pane container fade" role="tabpanel" id="artificial-intelligence">
-                    <div class="row">
-                        <div class="col-xl-8 col-md-8 col-xs-12">
-                            <h3>Artificial Intelligence</h3>
-                            <p>Here are some of my projects completed in my Artificial Intelligence course. All projects were coded in Python.</p>
-                            <p>To see more, visit my GitHub repository.</p>
-                            <a href="https://github.com/dmoini/cmsi485-artificial-intelligence/" target="_blank"><button type="button" class="btn">Artificial Intelligence</button></a>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/ai.jpg')"></div>
-                                <h5>Supervised Learning Classifier</h5>
-                                <p>Classifier that preprocesses data through supervised learning and trains a Naive Bayes classifier, decision tree classifier, and random forest classifier on the preprocessed data. Uses scikit, sklearn, and pandas Python libraries.</p>
-                                <a href="https://github.com/dmoini/cmsi485-artificial-intelligence/tree/master/homework-4" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/decision-network.jpg')"></div>
-                                <h5>Decision-Network-Based Ad Agent</h5>
-                                <p>Maximizes sales by selecting an advertisement to show based on the user's collected demographic data.</p>
-                                <a href="https://github.com/dmoini/cmsi485-artificial-intelligence/tree/master/homework-3" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/logic.jpg')"></div>
-                                <h5>Propositional Logic Inference Engine</h5>
-                                <p>A simplified propositional logic inference engine</p>
-                                <a href="https://github.com/dmoini/cmsi485-artificial-intelligence/tree/master/homework-2a" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/a-star.png')"></div>
-                                <h5>A* Graph Search</h5>
-                                <p>An A* graph search on a non-uniform cost maze pathfinding formulation of the traveling salesman problem.</p>
-                                <a href="https://github.com/dmoini/cmsi485-artificial-intelligence/tree/master/homework-1" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-pane container fade" role="tabpanel" id="algorithms-data">
-                    <div class="row">
-                        <div class="col-xl-8 col-md-8 col-xs-12">
-                            <h3>Algorithms and Data Structures</h3>
-                            <p>Here are some of my projects completed in my Algorithms and Data Structures courses. All projects were coded in Java.</p>
-                            <p>To see more, visit my GitHub repositories.</p>
-                            <a href="https://github.com/dmoini/cmsi282-algorithms" target="_blank"><button type="button" class="btn">Algorithms</button></a>
-                            <a href="https://github.com/dmoini/cmsi281-data-structures" target="_blank"><button type="button" class="btn">Data Structures</button></a>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/schoolgirl.png')"></div>
-                                <h5>Schoolgirl Solver</h5>
-                                <p>Program that solves <a href="http://mathworld.wolfram.com/KirkmansSchoolgirlProblem.html">Kirkman's Schoolgirl Problem</a> through the use of backtracking.</p>
-                                <a href="https://github.com/dmoini/cmsi282-algorithms/tree/master/SchoolgirlSolver" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/dominoes.png')"></div>
-                                <h5>Domino Solver</h5>
-                                <p>Given a set of dominoes, finds the max score using dynamic programming.</p>
-                                <a href="https://github.com/dmoini/cmsi282-algorithms/tree/master/DominoSolver" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/autocompleter.png')"></div>
-                                <h5>Autocompleter</h5>
-                                <p>Used ternary trees to suggest completed words for various string inputs.</p>
-                                <a href="https://github.com/dmoini/cmsi281-data-structures/tree/master/Autocompleter" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/text-file.png')"></div>
-                                <h5>Sentinal</h5>
-                                <p>Used hash tables/functions to analyze a text file and determine whether its words have an overall positive or negative tone.</p>
-                                <a href="https://github.com/dmoini/cmsi281-data-structures/tree/master/Sentinal" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/yarn.png')"></div>
-                                <h5>Yarn</h5>
-                                <p>Created a data structure that holds Strings via Strands and can add, remove, count, replace Strings and swap the contents of Yarns.</p>
-                                <a href="https://github.com/dmoini/cmsi281-data-structures/tree/master/Yarn" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-xs-12">
-                            <div class="thumbnail">
-                                <div class="square" style="background-image: url('images/yarn.png')"></div>
-                                <h5>Linked Yarn</h5>
-                                <p>Recreated Yarn using linked lists and an iterator.</p>
-                                <a href="https://github.com/dmoini/cmsi281-data-structures/tree/master/LinkedYarn" target="_blank"><button type="button" class="btn">SEE PROJECT</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+			<!-- Three -->
+			<section id="three">
+				<div class="container">
+					<h3>A Few Accomplishments</h3>
+					<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+						Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+					<div class="features">
+						<article>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+							<div class="inner">
+								<h4>Possibly broke spacetime</h4>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus
+									integer adipiscing ornare amet.</p>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+							<div class="inner">
+								<h4>Terraformed a small moon</h4>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus
+									integer adipiscing ornare amet.</p>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+							<div class="inner">
+								<h4>Snapped dark matter in the wild</h4>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus
+									integer adipiscing ornare amet.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
 
-                <div role="tabpanel" class="tab-pane container fade" id="other">
-                    <div class="row py-3">
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/programming-languages.png')"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Programming Languages</h4>
-                            <p>An exploration of various programming languages including JavaScript, Python, Java, C++, Haskell, and TypeScript.</p>
-                            <a href="https://github.com/dmoini/cmsi386-programming-languages" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-2">
-                            <div class="square" style="background-image: url('images/c.png')"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Computer Systems Organization</h4>
-                            <p>Various projects completed in my Computer Systems Organization course. All projects were coded in C.</p>
-                            <a href="https://github.com/dmoini/cmsi-284-computer-systems-organization" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                            <div class="col-md-2">
-                                <div class="square" style="background-image: url('images/java.png')"></div>
-                            </div>
-                            <div class="col-md-6">
-                                <h4>Programming Lab</h4>
-                                <p>Programming workshop where I completed projects including discrete simulation, randomized estimation, maze solving, dynamic programming, large-number arithmetic, and numerical methods. All projects coded in Java.</p>
-                                <a href="https://github.com/dmoini/cmsi186-programming-lab/" target="_blank"><button type="button" class="btn">SEE PROJECT ON GITHUB</button></a>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="https://github.com/dmoini?tab=repositories" target="_blank"><button type="button" class="btn">SEE MORE ON GITHUB</button></a>
-            </div>
-        </section>
-    </div>
+			<!-- Four -->
+			<section id="four">
+				<div class="container">
+					<h3>Contact Me</h3>
+					<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+						Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+					<form method="post" action="#">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
+									placeholder="Name" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
+									placeholder="Email" /></div>
+							<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" />
+							</div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message"
+									rows="6"></textarea></div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" class="primary" value="Send Message" /></li>
+									<li><input type="reset" value="Reset Form" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
 
-    <!-- ********** CONTACT ********** -->
-    <div class="d-block d-xs-block d-md-none" id="contact">
-        <div class="text-center" id="contact-icons">
-            <a href="mailto:donovanmoini@gmail.com?Subject=You're Hired!" target="_top" id="topnav-email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a href="https://www.github.com/dmoini" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/donovanmoini" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://instagram.com/d0nnym" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/d0nnym_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/d.moini" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        </div>
-    </div>
+			<!-- Five -->
+			<section id="five">
+				<div class="container">
+					<h3>Elements</h3>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/c7a8f8e58d.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/konami.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+					<section>
+						<h4>Text</h4>
+						<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is
+							<em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a
+								href="#">this is a link</a>.</p>
+						<hr />
+						<header>
+							<h4>Heading with a Subtitle</h4>
+							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						</header>
+						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi
+							integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia
+							sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+						<header>
+							<h5>Heading with a Subtitle</h5>
+							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						</header>
+						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi
+							integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia
+							sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+						<hr />
+						<h2>Heading Level 2</h2>
+						<h3>Heading Level 3</h3>
+						<h4>Heading Level 4</h4>
+						<h5>Heading Level 5</h5>
+						<h6>Heading Level 6</h6>
+						<hr />
+						<h5>Blockquote</h5>
+						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget
+							tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+							felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+							faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+						<h5>Preformatted</h5>
+						<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+					</section>
+
+					<section>
+						<h4>Lists</h4>
+						<div class="row">
+							<div class="col-6 col-12-xsmall">
+								<h5>Unordered</h5>
+								<ul>
+									<li>Dolor pulvinar etiam magna etiam.</li>
+									<li>Sagittis adipiscing lorem eleifend.</li>
+									<li>Felis enim feugiat dolore viverra.</li>
+								</ul>
+								<h5>Alternate</h5>
+								<ul class="alt">
+									<li>Dolor pulvinar etiam magna etiam.</li>
+									<li>Sagittis adipiscing lorem eleifend.</li>
+									<li>Felis enim feugiat dolore viverra.</li>
+								</ul>
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<h5>Ordered</h5>
+								<ol>
+									<li>Dolor pulvinar etiam magna etiam.</li>
+									<li>Etiam vel felis at lorem sed viverra.</li>
+									<li>Felis enim feugiat dolore viverra.</li>
+									<li>Dolor pulvinar etiam magna etiam.</li>
+									<li>Etiam vel felis at lorem sed viverra.</li>
+									<li>Felis enim feugiat dolore viverra.</li>
+								</ol>
+								<h5>Icons</h5>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
+									</li>
+									<li><a href="#" class="icon brands fa-dribbble"><span
+												class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h5>Actions</h5>
+						<ul class="actions">
+							<li><a href="#" class="button primary">Default</a></li>
+							<li><a href="#" class="button">Default</a></li>
+							<li><a href="#" class="button alt">Default</a></li>
+						</ul>
+						<ul class="actions small">
+							<li><a href="#" class="button primary small">Small</a></li>
+							<li><a href="#" class="button small">Small</a></li>
+							<li><a href="#" class="button alt small">Small</a></li>
+						</ul>
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-xsmall">
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+									<li><a href="#" class="button alt">Default</a></li>
+								</ul>
+							</div>
+							<div class="col-3 col-6 col-12-xsmall">
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary small">Small</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+									<li><a href="#" class="button alt small">Small</a></li>
+								</ul>
+							</div>
+							<div class="col-3 col-6-medium col-12-xsmall">
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary fit">Default</a></li>
+									<li><a href="#" class="button fit">Default</a></li>
+									<li><a href="#" class="button alt fit">Default</a></li>
+								</ul>
+							</div>
+							<div class="col-3 col-6-medium col-12-xsmall">
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary small fit">Small</a></li>
+									<li><a href="#" class="button small fit">Small</a></li>
+									<li><a href="#" class="button alt small fit">Small</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<h4>Table</h4>
+						<h5>Default</h5>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+
+						<h5>Alternate</h5>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+					</section>
+
+					<section>
+						<h4>Buttons</h4>
+						<ul class="actions">
+							<li><a href="#" class="button primary">Primary</a></li>
+							<li><a href="#" class="button">Default</a></li>
+							<li><a href="#" class="button alt">Alternate</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button primary large">Large</a></li>
+							<li><a href="#" class="button">Default</a></li>
+							<li><a href="#" class="button alt small">Small</a></li>
+						</ul>
+						<ul class="actions fit">
+							<li><a href="#" class="button primary fit">Fit</a></li>
+							<li><a href="#" class="button fit">Fit</a></li>
+							<li><a href="#" class="button alt fit">Fit</a></li>
+						</ul>
+						<ul class="actions fit small">
+							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+							<li><a href="#" class="button fit small">Fit + Small</a></li>
+							<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+							<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+						</ul>
+						<ul class="actions">
+							<li><span class="button primary disabled">Primary</span></li>
+							<li><span class="button disabled">Default</span></li>
+							<li><span class="button alt disabled">Alternate</span></li>
+						</ul>
+					</section>
+
+					<section>
+						<h4>Form</h4>
+						<form method="post" action="#">
+							<div class="row gtr-uniform">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="demo-email" id="demo-email" value=""
+										placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<select name="demo-category" id="demo-category">
+										<option value="">- Category -</option>
+										<option value="1">Manufacturing</option>
+										<option value="1">Shipping</option>
+										<option value="1">Administration</option>
+										<option value="1">Human Resources</option>
+									</select>
+								</div>
+								<div class="col-4 col-12-medium">
+									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+									<label for="demo-priority-low">Low Priority</label>
+								</div>
+								<div class="col-4 col-12-medium">
+									<input type="radio" id="demo-priority-normal" name="demo-priority">
+									<label for="demo-priority-normal">Normal Priority</label>
+								</div>
+								<div class="col-4 col-12-medium">
+									<input type="radio" id="demo-priority-high" name="demo-priority">
+									<label for="demo-priority-high">High Priority</label>
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="checkbox" id="demo-copy" name="demo-copy">
+									<label for="demo-copy">Email me a copy of this message</label>
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="checkbox" id="demo-human" name="demo-human" checked>
+									<label for="demo-human">I am a human and not a robot</label>
+								</div>
+								<div class="col-12">
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+										rows="6"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="reset" value="Reset" class="alt" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+
+					<section>
+						<h4>Image</h4>
+						<h5>Fit</h5>
+						<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+								</div>
+							</div>
+						</div>
+						<h5>Left &amp; Right</h5>
+						<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec
+							accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+							ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+							adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis
+							eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
+							adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac
+							pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+							tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+							felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+							tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+							vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+							Integer ac pellentesque praesent.</p>
+						<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec
+							accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+							ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+							adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis
+							eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
+							adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac
+							pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+							tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+							felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+							tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+							vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+							Integer ac pellentesque praesent.</p>
+					</section>
+
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; Untitled. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
