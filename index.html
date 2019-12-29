@@ -61,25 +61,6 @@
             >
           </li>
           <li>
-            <a href="https://twitter.com/d0nnym_" class="icon brands fa-twitter"
-              ><span class="label">Twitter</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/d0nnym/"
-              class="icon brands fa-instagram"
-              ><span class="label">Instagram</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/d.moini"
-              class="icon brands fa-facebook-f"
-              ><span class="label">Facebook</span></a
-            >
-          </li>
-          <li>
             <a
               href="mailto:donovanmoini@gmail.com"
               class="icon solid fa-envelope"
@@ -107,25 +88,22 @@
               <h2>About Me</h2>
             </header>
             <p>
-              I am currently an undergraduate student at
-              <a href="https://www.lmu.edu/" target="_blank"
-                >Loyola Marymount University</a
-              >
-              pursuing my Bachelor of Science in Computer Science with a minor
-              in Philosophy. Throughout my time in college, I have been involved
-              with the Residence Hall Association, National Residence Hall
-              Honorary,
+              I am currently an undergraduate student at Loyola Marymount
+              University pursuing my Bachelor of Science in computer science
+              with a minor in philosophy. Some of my involvements in college
+              include being a resident advisor, being a computer science
+              teaching assistant, the
               <a href="http://www.lmumagis.com/" target="_blank"
                 >MAGIS Service Organizaiton</a
-              >, an Orientation leader, and more.
+              >, Alpha Sigma Nu, being an orientation leader, and more.
             </p>
             <p>
               Some fun facts about me include I was born and raised in the
-              wonderful city of Los Angeles my entire life (and I do not plan on
-              leaving anytime soon), I am a soccer fan and support Chelsea FC, I
-              love watching movies and television shows, especially Brooklyn
-              Nine-Nine, Rick and Morty, and Black Mirror, and I love meeting
-              new people and spending time with my friends.
+              wonderful city of Los Angeles, I am a soccer fan and support
+              Chelsea FC, I love watching movies and television shows,
+              especially Brooklyn Nine-Nine, Rick and Morty, Bojack Horseman,
+              and Black Mirror, and I love meeting new people and spending time
+              with my friends.
             </p>
             <p>
               I have enjoyed computer science and programming so much since I
@@ -165,8 +143,8 @@
                     <li>JavaScript</li>
                     <li>Java</li>
                     <li>HTML/CSS</li>
-                    <li>Go</li>
                     <li>C/C++</li>
+                    <li>Go</li>
                   </ul>
                 </ul>
               </div>
@@ -174,15 +152,15 @@
                 <h3>Technologies</h3>
                 <ul>
                   <ul>
-                    <li>AWS</li>
+                    <li>AWS (S3, Lambda, API Gateway, DynamoDB)</li>
                     <li>Git/GitHub</li>
-                    <li>Bootstrap</li>
+                    <li>Apollo GraphQL</li>
+                    <li>Serverless Framework</li>
                     <li>Node.js</li>
-                    <li>Jenkins</li>
+                    <li>Bootstrap</li>
                     <li>VS Code</li>
                     <li>Atom</li>
                     <li>Google Drive</li>
-                    <li>Microsoft Office</li>
                   </ul>
                 </ul>
               </div>
@@ -203,30 +181,52 @@
             <header class="major">
               <h2>Notable Projects</h2>
             </header>
-            <p>Click on the images to view the respective project.</p>
             <div class="features">
               <article>
-                <a href="http://join.playroll.io/" class="image"
-                  ><img src="images/playroll.png" alt="Playroll"
-                /></a>
+                <img class="image" src="images/amplify.png" alt="Amplify" />
                 <div class="inner">
-                  <h4>Playroll</h4>
-                  <p>
-                    Playroll is an application that allows users to create
-                    playrolls, which replace the traditional idea of playlists.
-                    Using a set of unique algorithms, Playroll uses your
-                    provided music to create the perfect playlist. Worked on
-                    backend using Go, GORM, GraphQL, and PostgresDB.
+                  <h4>Amplify</h4>
+                  <p align="justify">
+                    Amplify is a community music streaming service that allows
+                    users to create and join rooms that host public music
+                    playlists using Spotify and YouTube services. Users can join
+                    rooms and add songs of their choice to the community queue,
+                    which will be cycled through in round-robin style between
+                    all users’ queued songs. Worked as the backend lead using
+                    JavaScript, Apollo GraphQL, AWS Lambda, Amazon API Gateway,
+                    Amazon DynamoDB, and Serverless.
                   </p>
+                  <!-- TODO: Have download links for Amplify -->
+                  <!-- <div class="center-button">
+                    <a href="http://join.playroll.io/" class="button primary"
+                      >Download</a
+                    >
+                  </div> -->
                 </div>
               </article>
               <article>
-                <a href="https://dmoini.github.io/casper/" class="image"
-                  ><img src="images/casper.png" alt="Casper"
-                /></a>
+                <img class="image" src="images/playroll.png" alt="Playroll" />
+                <div class="inner">
+                  <h4>Playroll</h4>
+                  <p align="justify">
+                    Playroll is an application that allows users to create
+                    playrolls, which replace the traditional idea of playlists.
+                    Using a set of unique algorithms, Playroll uses your
+                    provided music to create the perfect playlist. Worked on the
+                    backend using Go, GORM, GraphQL, and PostgresDB.
+                  </p>
+                  <div class="center-button">
+                    <a href="http://join.playroll.io/" class="button primary"
+                      >Download</a
+                    >
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img class="image" src="images/casper.png" alt="Casper" />
                 <div class="inner">
                   <h4>Casper Programming Language</h4>
-                  <p>
+                  <p align="justify">
                     Collaborated with four other LMU students to create Casper:
                     The Friendly Programming Language. Casper incorporates a
                     speech-like, easy-to-use syntax that eliminates unnecessary
@@ -236,31 +236,57 @@
                     make programming an entirely pleasant affair. Coded using
                     JavaScript and Ohm.
                   </p>
+                  <div class="center-button">
+                    <a
+                      href="https://dmoini.github.io/casper/"
+                      class="button primary button-left"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/dmoini/casper"
+                      class="button primary button-right"
+                      >Repository</a
+                    >
+                  </div>
                 </div>
               </article>
               <article>
-                <a
-                  href="https://dmoini.github.io/fortnite-stat-tracker/"
+                <img
                   class=" image"
-                  ><img src="images/fortnite.jpg" alt="Fortnite Stat Tracker"
-                /></a>
+                  src="images/fortnite.jpg"
+                  alt="Fortnite Stat Tracker"
+                />
                 <div class="inner">
                   <h4>Fortnite Stat Tracker</h4>
-                  <p>
+                  <p align="justify">
                     Fortnite web application that retrieves player stats, daily
                     shop items, and weekly challenges. Coded with HTML,
                     JavaScript/jQuery, CSS, Bootstrap, and
                     <a href="https://fortniteapi.com/">Fortnite API</a>.
                   </p>
+                  <div class="center-button">
+                    <a
+                      href="https://dmoini.github.io/fortnite-stat-tracker/"
+                      class="button primary button-left"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/dmoini/fortnite-stat-tracker"
+                      class="button primary button-right"
+                      >Repository</a
+                    >
+                  </div>
                 </div>
               </article>
               <article>
-                <a href="http://www.lmumagis.com/" class="image"
-                  ><img src="images/magis.png" alt="LMU Magis Website"
-                /></a>
+                <img
+                  class="image"
+                  src="images/magis.png"
+                  alt="LMU Magis Website"
+                />
                 <div class="inner">
                   <h4>MAGIS Website</h4>
-                  <p>
+                  <p align="justify">
                     Currently maintain the official website of the MAGIS Service
                     Organization. The site now serves as a platform for anyone
                     interested in learning more about us, partnering with us, or
@@ -268,6 +294,18 @@
                     CSS, Bootstrap, and
                     <a href="http://instafeedjs.com/">Instafeed.js</a>.
                   </p>
+                  <div class="center-button">
+                    <a
+                      href="http://www.lmumagis.com/"
+                      class="button primary button-left"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/danicobryan/magis"
+                      class="button primary button-right"
+                      >Repository</a
+                    >
+                  </div>
                 </div>
               </article>
               <article>
@@ -278,18 +316,31 @@
                 /></a>
                 <div class="inner">
                   <h4>Hog</h4>
-                  <p>
+                  <p align="justify">
                     Created a system utility function that outputs which process
                     IDs are using up the highest CPU percentage on your machine.
                     Coded in C.
                   </p>
+                  <div class="center-button">
+                    <a
+                      href="https://github.com/dmoini/cmsi387-operating-systems/blob/2ba22eab1fa4b967d68d313df931e8e944aad30a/Semester%20Project/hog.c"
+                      class="button primary"
+                      >Repository</a
+                    >
+                  </div>
                 </div>
               </article>
-            </div>
-            <div class="center-button">
-              <a href="https://github.com/dmoini" class="button primary"
-                >Full Github Portfolio</a
-              >
+              <article>
+                <div class="center-button">
+                  <p>
+                    All projects can be found in my full GitHub repository
+                    below.
+                  </p>
+                  <a href="https://github.com/dmoini" class="button primary"
+                    >Full Github Portfolio</a
+                  >
+                </div>
+              </article>
             </div>
           </div>
         </section>
